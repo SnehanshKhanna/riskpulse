@@ -11,8 +11,6 @@ An end-to-end financial risk intelligence platform designed for the **Code to Co
 ## 📽️ Demo Video
 [Insert YouTube Unlisted Link Here]
 
-## 📊 Presentation Deck
-[docs/presentation.pdf](docs/presentation.pdf)
 
 ## 🏗️ Architecture
 ![Architecture](docs/architecture.png)

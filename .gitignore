@@ -49,3 +49,11 @@ data/raw/*
 # Scratch and internal task prompts
 scratch/
 antigravity_master_prompt_v*.md
+docs/IMPLEMENTATION_PLAN.md
+docs/TASKS.md
+docs/PHASE_6_AUDIT.md
+docs/PHASE_7_REPORT.md
+docs/LIVE_SOURCE_EVALUATION.md
+docs/results/
+docs/presentation.pdf
+docs/presentation_content.md
