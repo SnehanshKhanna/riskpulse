@@ -1,0 +1,23 @@
+rules:
+  - id: "R1"
+    name: "High Impact Systemic Shock"
+    conditions:
+      min_impact: 7.0
+      direction: "adverse"
+      eligible_types: ["Geopolitical", "Macroeconomic", "Market Shock", "Commodity/Energy Shock"]
+    action: "TRIGGER_SYSTEMIC"
+
+  - id: "R2"
+    name: "High Impact Idiosyncratic Shock"
+    conditions:
+      min_impact: 7.0
+      direction: "adverse"
+      eligible_types: ["Credit Event", "Cyber/Operational Incident", "Regulatory/Legal"]
+    action: "TRIGGER_TARGETED"
+    
+  - id: "R3"
+    name: "Watchlist - Medium Impact"
+    conditions:
+      min_impact: 5.0
+      direction: "adverse"
+    action: "ADD_TO_WATCHLIST"

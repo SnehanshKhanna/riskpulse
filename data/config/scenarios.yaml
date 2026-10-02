@@ -1,0 +1,28 @@
+Geopolitical:
+  equity_shock_pct: -0.12
+  sector_overrides:
+    Financials: -0.15
+    Energy: +0.03
+  rate_shift_bp: -30
+  credit_spread_bp: 60
+  fx_usd_shock_pct: 0.04
+  commodity_shock_pct: 0.25
+  pd_multiplier: 1.2
+  
+Macroeconomic:
+  equity_shock_pct: -0.10
+  rate_shift_bp: 200
+  credit_spread_bp: 80
+  pd_multiplier: 1.5
+
+Credit Event:
+  equity_shock_pct: -0.25
+  credit_spread_bp: 400
+  pd_multiplier: 2.0
+  sector_spillover_bp: 50
+  
+Market Shock:
+  equity_shock_pct: -0.15
+  credit_spread_bp: 100
+  vol_shock: 0.50
+  pd_multiplier: 1.1
